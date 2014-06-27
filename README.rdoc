@@ -1,0 +1,17 @@
+== README
+
+Just a simple Rails Integration Test that will search on google for 'essay editing' and check that the results returned is equal to 10.
+
+(Tested on Mac OS.X 10.9.2, ruby v2.1.1, rails v4.1.0)
+
+* Ruby version 
+v2.1.1
+
+* System dependencies
+Firefox browser
+
+* Copy on your machine
+git clone https://github.com/paulbrodner/simple-integration-test.git
+
+* How to run the test suite
+bundle exec rake test:integration
